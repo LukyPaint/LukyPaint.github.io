@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'quantum';
+    font-style: normal;
+    font-weight: 200;
+    src: local('quantum'),
+        url(../fonts/quantum.woff2) format('woff2');
+
+}
+
+html {
+	background-color: #444556;
+	padding: 5%;
+}
+
+* {
+	font-family: sans-serif;
+	color: white;
+}
+
+.icon {
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+}
+
+header {
+	padding: 5px;
+	background-color: #242536;
+}
+
+body {
+	padding: 5px;
+	background-color: #343546;
+}
+
+.nav__input {
+	width: 40%;
+	margin: 10px 5px;
+	float: left;
+	color: black;
+}
+
+.nav {
+	font-family: "arial_narrow";
+	font-size: 10px;
+	padding-top: 10px;
+	display: inline-block;
+	width: 70%;
+	color: white;
+}
+
+.links {
+	vertical-align: middle;
+	margin: 10px 10px 15px;
+	float: right;
+}
+
+#corner{
+	display: flex;
+  	align-items: center;
+	padding: 10px;
+	float: left;
+	width: 30%
+	margin: 10px 5px;
+ 
+}
+
+#corner_title {
+	float: right;
+	font-family: "quantum";
+	font-weight: 50px;
+	font-size: 16px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.subtitle {
+	margin: 10px;
+	align-items: center;
+	text-align: center;
+	font-size: 30px;
+}
+
+.end {
+	align-items: center;
+	text-align: center;
+	margin: 5px;
+	padding: 10px;
+	padding-bottom: 20px;
+	background-color: #242536;
+}
+
+.input_bar {
+	color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.download {
+	margin-top: 10px;
+	font-size: 10px;
+
+}
+
+.redir {
+	align-content: center;
+	text-align: center;
+	margin: 10px;
+}
+
+form {
+	margin-left: 5px;
+}
