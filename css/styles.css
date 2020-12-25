@@ -1,113 +1,130 @@
-@font-face {
-    font-family: 'quantum';
-    font-style: normal;
-    font-weight: 200;
-    src: local('quantum'),
-        url(../fonts/quantum.woff2) format('woff2');
+html{
+	background-color: #0c0d17;
+	font-color: white;
 
 }
 
-html {
-	background-color: #444556;
-	padding: 5%;
-}
-
-* {
+p, p a{
+	color: white;
 	font-family: sans-serif;
-	color: white;
-}
-
-.icon {
-	padding: 5px;
-	width: 30px;
-	height: 30px;
-}
-
-header {
-	padding: 5px;
-	background-color: #242536;
-}
-
-body {
-	padding: 5px;
-	background-color: #343546;
-}
-
-.nav__input {
-	width: 40%;
-	margin: 10px 5px;
-	float: left;
-	color: black;
-}
-
-.nav {
-	font-family: "arial_narrow";
-	font-size: 10px;
-	padding-top: 10px;
-	display: inline-block;
-	width: 70%;
-	color: white;
-}
-
-.links {
-	vertical-align: middle;
-	margin: 10px 10px 15px;
-	float: right;
-}
-
-#corner{
-	display: flex;
-  	align-items: center;
-	padding: 10px;
-	float: left;
-	width: 30%
-	margin: 10px 5px;
- 
-}
-
-#corner_title {
-	float: right;
-	font-family: "quantum";
-	font-weight: 50px;
-	font-size: 16px;
-	margin-left: 10px;
-	text-align: center;
-}
-
-.subtitle {
-	margin: 10px;
-	align-items: center;
-	text-align: center;
-	font-size: 30px;
-}
-
-.end {
-	align-items: center;
-	text-align: center;
 	margin: 5px;
 	padding: 10px;
-	padding-bottom: 20px;
-	background-color: #242536;
-}
-
-.input_bar {
-	color: black;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-.download {
-	margin-top: 10px;
-	font-size: 10px;
 
 }
 
-.redir {
-	align-content: center;
+.main_bar{
+	background-color: #0c0d17;
+	width: 100%;
+	position: fixed;
+	padding: 10px;
+}
+
+.main_bar__links{
+	width: 30%;
+	float: right;
+	margin: 5px;
+
+}
+
+.main_bar__links h4 a{
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+	padding: 5px;
+	margin: 5px 15px;
+	float: right;
+	display: block;
 	text-align: center;
+}
+
+.icon{
+	width: 40px;
+	height: 40px;
+	float: left
+}
+
+.corner_title{
+	float:left;
+}
+
+.corner_title h1{
+	float: right;
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 800px;
+	text-transform: uppercase;
+	text-shadow: 0 0 15px #7abefa;
+	padding: 5px;
+	margin: 5px 0;
+
+}
+
+.search_bar{
+	border-radius: 10px;
+	border: 0;
+	font-family: sans-serif;
+	font-size: 15px;
+	width: 30%;
+	padding: 5px 10px;
+	margin: 5px 20px;
+	box-shadow: 0 0 15px #7abefa;
+}
+
+.body{
+	padding-top: 50px;
+	margin: 20px;
+	background-color: #3b3e52;s
+}
+
+.space{
+	margin: 50px;
+	margin-top: 100px;
+	display: inline;
+}
+
+.subtitle{
+	background-color: #0c0d17;
+	text-align: center;
+	margin: 20px 5px;
+	padding: 10px;
+	color: white;
+	text-shadow: 0 0 5px #7abefa;
+	font-size: 40px;
+}
+
+.footer{
+	font-family: sans-serif;
+	color: white;
+	background-color: #0c0d17;
+	margin-top: 20px;
+	padding: 20px 10px;
+	text-align: center;
+	align-items: center;
+}
+.footer img{
+	width: 40px;
+	height: 40px;
+	align-self: center;
 	margin: 10px;
 }
 
-form {
-	margin-left: 5px;
+.download_links{
+	align-self: center;
+	align-items: center;
+	padding: 40px 10px;
+	margin: 5px;
+}
+
+.download_links h3{
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+.download_links h3 a{
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-shadow: 0 0 10px #7abefa;
 }
